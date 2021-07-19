@@ -1,6 +1,6 @@
-import React, {FC, isValidElement, memo} from 'react';
+import React, {FC,  memo} from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import {FaRegUser,FaLock, FaSpinner} from "react-icons/fa";
+import { FaSpinner} from "react-icons/fa";
 import * as yup from 'yup';
 import { useFormik } from 'formik';
 import Input from '../components/Input';
