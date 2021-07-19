@@ -1,15 +1,12 @@
-import {FC, memo, useEffect} from 'react';
+import {FC, memo} from 'react';
+import authRight from '../img/auth-right.webp';
 
 interface Props {}
 
 const AuthHero: FC<Props> =(props) => {
-    console.log("authhero");
-    useEffect(() => {
-           console.log("firstTime")
-    }, []);
     return (
-        <div className="h-screen w-1/2 bg-black text-white">
-            LOGO hai yaha
+        <div className="hidden lg:flex h-screen lg:w-1/2 bg-black text-white items-center justify-center">
+            <img src={authRight} alt="icon" className="h-4/6 w-4/6" />
         </div>
     );
 };
